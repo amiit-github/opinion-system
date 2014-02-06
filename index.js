@@ -15,7 +15,7 @@ f.getTweetsByREST('https://api.twitter.com/1.1/search/tweets.json?q=ronaldo&lang
 });
 
 
-/*
+
 //search facebook posts
 f.getFacebookPosts({type:'post', q: 'beer'}, function(result) {
 	for (item in result) {
@@ -33,6 +33,6 @@ f.getMovReviews("Her", function(result) {
 			console.log(reviews[item].critic+" : "+reviews[item].quote);
 		}
 
-});*/
+});
 
 
